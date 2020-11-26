@@ -1,4 +1,4 @@
-package baekjoon.realization;
+package baekjoon.implementation;
 
 import java.util.Scanner;
 /**
