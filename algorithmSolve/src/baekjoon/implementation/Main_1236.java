@@ -8,7 +8,7 @@ import java.util.Scanner;
  * 1236번: 성 지키기
  * https://www.acmicpc.net/problem/1236
  * 
- * ING
+ * FAIL: 런타임 에러
  */
 public class Main_1236 {
 	public static void main(String[] args) {
@@ -19,9 +19,14 @@ public class Main_1236 {
 		sc.nextLine();
 		String[][] arr = new String[n][m];
 		for(int i = 0; i < arr.length; i++) {
-			for(int j = 0; j < arr[i].length; j++) {
+			/*for(int j = 0; j < arr[i].length; j++) {
 				arr[i][j] = sc.nextLine();
+			}*/
+			String str = sc.nextLine();
+			for(int j = 0; j < str.length(); j++) {
+				arr[i][j] = String.valueOf(str.charAt(j));
 			}
+			
 		}
 		int result = 0;
 		
@@ -50,7 +55,7 @@ public class Main_1236 {
 				}
 				
 				if(!xflag) {
-					arr[i][i] = ".";
+					arr[i][i] = "X";
 					result++;
 				}
 			}

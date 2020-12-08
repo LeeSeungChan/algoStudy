@@ -8,7 +8,7 @@ import java.util.Scanner;
  * 5893번: 17배
  * https://www.acmicpc.net/problem/5893
  * 
- * FAIL
+ * 2FAIL: 런타임에러
  */
 public class Main_5893 {
 	public static void main(String[] args) {

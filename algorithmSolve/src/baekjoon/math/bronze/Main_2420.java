@@ -1,4 +1,4 @@
-package baekjoon.math;
+package baekjoon.math.bronze;
 
 import java.util.Scanner;
 
@@ -8,14 +8,15 @@ import java.util.Scanner;
  * 2420번: 사파리 월드
  * https://www.acmicpc.net/problem/2420
  * 
- * FAIL
+ * 2FAIL
+ * PASS
  */
 public class Main_2420 {
 	public static void main(String[] args) {
 		// input & initialize
 		Scanner sc = new Scanner(System.in);
-		int n = sc.nextInt();
-		int m = sc.nextInt();
+		long n = sc.nextInt();
+		long m = sc.nextInt();
 		long result = n - m;
 		
 		// logic

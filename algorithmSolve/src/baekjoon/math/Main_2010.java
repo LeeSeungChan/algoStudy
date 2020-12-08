@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * 수학,구현,사칙연산 / B3
  * 
- * 2010번: 
+ * 2010번: 플러그
  * https://www.acmicpc.net/problem/2010
  * 
  * ING

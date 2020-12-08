@@ -3,7 +3,7 @@ package baekjoon.math;
 import java.util.Scanner;
 
 /**
- * 수학
+ * 수학,정수론,유클리드 호제법 / S2
  * 
  * 1735번: 분수 합
  * https://www.acmicpc.net/problem/1735
