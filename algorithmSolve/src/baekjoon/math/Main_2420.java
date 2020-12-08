@@ -1,14 +1,14 @@
-package baekjoon.implementation;
+package baekjoon.math;
 
 import java.util.Scanner;
 
 /**
- * 구현
+ * 수학,구현,사칙연산 / B4
  * 
  * 2420번: 사파리 월드
  * https://www.acmicpc.net/problem/2420
  * 
- * PASS / FAIL / ING
+ * FAIL
  */
 public class Main_2420 {
 	public static void main(String[] args) {

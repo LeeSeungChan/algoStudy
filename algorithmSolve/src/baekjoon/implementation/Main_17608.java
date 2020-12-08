@@ -3,7 +3,7 @@ package baekjoon.implementation;
 import java.util.Scanner;
 
 /**
- * 구현 / B2
+ * 구현,자료구조,스택 / B2
  * 
  * 17608번: 막대기
  * https://www.acmicpc.net/problem/17608

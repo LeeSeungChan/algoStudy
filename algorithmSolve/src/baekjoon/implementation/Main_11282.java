@@ -8,7 +8,7 @@ import java.util.Scanner;
  * 11282번: 한글
  * https://www.acmicpc.net/problem/11282
  * 
- * PASS / FAIL / ING
+ * ING
  */
 public class Main_11282 {
 	public static void main(String[] args) {

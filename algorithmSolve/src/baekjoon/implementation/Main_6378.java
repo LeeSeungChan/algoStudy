@@ -8,7 +8,7 @@ import java.util.Scanner;
  * 6378번: 디지털 루트
  * https://www.acmicpc.net/problem/6378
  * 
- * PASS / FAIL / ING
+ * ING
  */
 public class Main_6378 {
 	public static void main(String[] args) {

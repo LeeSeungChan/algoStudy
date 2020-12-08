@@ -1,14 +1,14 @@
-package baekjoon.implementation;
+package baekjoon.math;
 
 import java.util.Scanner;
 
 /**
- * 구현
+ * 수학,구현 / B3
  * 
  * 1009번: 분산처리
  * https://www.acmicpc.net/problem/1009
  * 
- * PASS / FAIL / ING
+ * ING
  */
 public class Main_1009 {
 	public static void main(String[] args) {

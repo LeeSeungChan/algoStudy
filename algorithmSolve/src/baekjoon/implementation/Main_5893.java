@@ -3,14 +3,14 @@ package baekjoon.implementation;
 import java.util.Scanner;
 
 /**
- * 구현
+ * 구현 / B4
  * 
- * 5398번: 17배
- * https://www.acmicpc.net/problem/5398
+ * 5893번: 17배
+ * https://www.acmicpc.net/problem/5893
  * 
  * FAIL
  */
-public class Main_5398 {
+public class Main_5893 {
 	public static void main(String[] args) {
 		// input & initialize
 		Scanner sc = new Scanner(System.in);

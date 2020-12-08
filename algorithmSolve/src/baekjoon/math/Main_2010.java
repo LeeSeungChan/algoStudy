@@ -1,9 +1,9 @@
-package baekjoon.implementation;
+package baekjoon.math;
 
 import java.util.Scanner;
 
 /**
- * 구현
+ * 수학,구현,사칙연산 / B3
  * 
  * 2010번: 
  * https://www.acmicpc.net/problem/2010

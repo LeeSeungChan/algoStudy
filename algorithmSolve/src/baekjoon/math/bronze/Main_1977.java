@@ -1,17 +1,16 @@
-package baekjoon.math;
+package baekjoon.math.bronze;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 /**
- * 수학
+ * 수학 / B1
  * 
  * 1977번: 완전제곱수
  * https://www.acmicpc.net/problem/1977
  * 
  * PASS
- * B1
  */
 public class Main_1977 {
 	public static void main(String[] args) {

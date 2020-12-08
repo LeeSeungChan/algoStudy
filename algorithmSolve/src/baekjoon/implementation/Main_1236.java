@@ -8,7 +8,7 @@ import java.util.Scanner;
  * 1236번: 성 지키기
  * https://www.acmicpc.net/problem/1236
  * 
- * PASS / FAIL / ING
+ * ING
  */
 public class Main_1236 {
 	public static void main(String[] args) {
