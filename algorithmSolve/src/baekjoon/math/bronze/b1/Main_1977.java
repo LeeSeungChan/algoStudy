@@ -1,4 +1,4 @@
-package baekjoon.math.bronze;
+package baekjoon.math.bronze.b1;
 
 import java.util.ArrayList;
 import java.util.List;

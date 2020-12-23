@@ -1,4 +1,4 @@
-package baekjoon.math.silver;
+package baekjoon.math.silver.s5;
 
 import java.util.Scanner;
 
