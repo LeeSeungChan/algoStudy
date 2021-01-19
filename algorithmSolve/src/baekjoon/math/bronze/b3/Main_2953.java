@@ -8,7 +8,7 @@ import java.util.Scanner;
  * 2953번: 나는 요리사다
  * https://www.acmicpc.net/problem/2953
  * 
- * PASS
+ * PASS (input / part-1 / part-2 반복문을 1개의 반복문으로 가능)
  */
 public class Main_2953 {
 	public static void main(String[] args) {
@@ -23,14 +23,14 @@ public class Main_2953 {
 		int[] sum = new int[arr.length];
 		
 		// logic
-		// 각 요리사의 점수 합 구하기
+		// part-1. 각 요리사의 점수 합 구하기
 		for(int i = 0; i < arr.length; i++) {
 			for(int j = 0; j < arr[i].length; j++) {
 				sum[i] += arr[i][j];
 			}
 		}
 		
-		// 점수 합 중 최다 점수 구하기
+		// part-2. 점수 합 중 최다 점수 구하기
 		int max = sum[0];
 		int index = 0;
 		for(int i = 1; i < sum.length; i++) {

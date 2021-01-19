@@ -8,7 +8,7 @@ import java.util.Scanner;
  * 2864번: 5와 6의 차이
  * https://www.acmicpc.net/problem/2864
  * 
- * PASS
+ * PASS (다른 방법 가능)
  */
 public class Main_2864 {
 	public static void main(String[] args) {
