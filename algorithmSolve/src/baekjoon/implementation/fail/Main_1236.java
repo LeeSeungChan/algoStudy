@@ -1,4 +1,4 @@
-package baekjoon.implementation;
+package baekjoon.implementation.fail;
 
 import java.util.Scanner;
 
@@ -48,14 +48,14 @@ public class Main_1236 {
 				}
 				
 				// 열 검사
-				for(int k = 0; k < arr[i].length; k++) {
-					if("X".equals(arr[k][i])) {
+				for(int k = 0; k < arr.length; k++) {
+					if("X".equals(arr[k][j])) {
 						xflag = true;
 					}
 				}
 				
 				if(!xflag) {
-					arr[i][i] = "X";
+					arr[i][j] = "X";
 					result++;
 				}
 			}
