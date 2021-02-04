@@ -3,7 +3,7 @@ package baekjoon.math.bronze.b1;
 import java.util.Scanner;
 
 /**
- * 수학 / B1
+ * 수학,구현,사칙연산 / B1
  * 
  * 5533번: 유니크
  * https://www.acmicpc.net/problem/5533

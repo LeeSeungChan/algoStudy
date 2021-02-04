@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * 수학,구현,사칙연산 / B3
  * 
- * 10950번: A + B - 3
+ * 10951번: A + B - 4
  * https://www.acmicpc.net/problem/10950
  * 
  * PASS

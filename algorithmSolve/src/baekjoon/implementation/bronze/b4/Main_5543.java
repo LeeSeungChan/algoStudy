@@ -3,7 +3,7 @@ package baekjoon.implementation.bronze.b4;
 import java.util.Scanner;
 
 /**
- * 구현 / B4
+ * 수학,사칙연산 / B4
  * 
  * 5543번: 상근날드
  * https://www.acmicpc.net/problem/5543

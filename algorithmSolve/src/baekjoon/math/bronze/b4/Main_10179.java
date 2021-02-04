@@ -1,9 +1,9 @@
-package baekjoon.implementation.bronze.b4;
+package baekjoon.math.bronze.b4;
 
 import java.util.Scanner;
 
 /**
- * 구현 / B4
+ * 수학,구현,사칙연산 / B4
  * 
  * 10179번: 쿠폰
  * https://www.acmicpc.net/problem/10179

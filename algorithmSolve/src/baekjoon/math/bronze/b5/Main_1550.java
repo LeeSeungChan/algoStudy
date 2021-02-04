@@ -1,9 +1,9 @@
-package baekjoon.implementation.bronze.b5;
+package baekjoon.math.bronze.b5;
 
 import java.util.Scanner;
 
 /**
- * 구현 / B5
+ * 수학,구현 / B5
  * 
  * 1550번: 16진수
  * https://www.acmicpc.net/problem/1550

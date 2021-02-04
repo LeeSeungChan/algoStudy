@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * 수학 / B1
+ * 수학,정수론 / B1
  * 
  * 9506번: 약수들의 합
  * https://www.acmicpc.net/problem/9506

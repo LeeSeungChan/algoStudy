@@ -3,7 +3,7 @@ package baekjoon.implementation.bronze.b2;
 import java.io.*;
 
 /**
- * 구현 / B2
+ * 그리디 알고리즘 / B2
  * 
  * 5585번: 거스름돈
  * https://www.acmicpc.net/problem/5585

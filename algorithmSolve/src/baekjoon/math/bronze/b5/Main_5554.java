@@ -1,9 +1,9 @@
-package baekjoon.implementation.bronze.b5;
+package baekjoon.math.bronze.b5;
 
 import java.util.*;
 
 /**
- * 구현 / B5
+ * 수학,구현,사칙연산 / B5
  * 
  * 5554번: 심부름 가는 길
  * https://www.acmicpc.net/problem/5554

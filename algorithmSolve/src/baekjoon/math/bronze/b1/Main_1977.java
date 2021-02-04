@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * 수학 / B1
+ * 수학,구현 / B1
  * 
  * 1977번: 완전제곱수
  * https://www.acmicpc.net/problem/1977

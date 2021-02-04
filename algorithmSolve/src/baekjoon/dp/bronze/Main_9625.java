@@ -3,7 +3,7 @@ package baekjoon.dp.bronze;
 import java.util.Scanner;
 
 /**
- * DP / B1
+ * 수학,DP,구현 / B1
  * 
  * 9625번: BABBA
  * https://www.acmicpc.net/problem/9625

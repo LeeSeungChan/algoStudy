@@ -1,9 +1,9 @@
-package baekjoon.implementation.bronze.b3;
+package baekjoon.math.bronze.b3;
 
 import java.util.Scanner;
 
 /**
- * 구현 / B3
+ * 수학,구현,사칙연산 / B3
  * 
  * 9085번: 더하기
  * https://www.acmicpc.net/problem/9085
