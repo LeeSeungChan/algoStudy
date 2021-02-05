@@ -1,4 +1,4 @@
-package baekjoon.implementation.bronze.b2;
+package baekjoon.greedy.bronze.b2;
 
 import java.io.*;
 

@@ -47,7 +47,7 @@ public class Main_5893 {
 		
 		// str << 4
 		StringBuilder result = new StringBuilder(str);
-		result.append("0000");
+		result.append("0");
 		
 		BigInteger b1 = new BigInteger(result.toString());
 		BigInteger b2 = new BigInteger(str);

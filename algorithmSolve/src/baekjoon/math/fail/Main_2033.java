@@ -16,25 +16,17 @@ public class Main_2033 {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		String str = String.valueOf(n);
-		StringBuilder sb = new StringBuilder();
+		int result = 0;
 		
 		// logic
-		String s0 = String.valueOf(str.charAt(0));
-		String s1 = String.valueOf(str.charAt(1));
-
-		if(Integer.parseInt(s1) >= 5) { // 반올림
-			sb.append(Integer.parseInt(s0) + 1);
-			sb.append(0);
+		if(n > 10) {
+			
 		}else {
-			sb.append(str.subSequence(0, 2));
-		}
-		
-		if(str.length() > 2) {
-			sb.append(str.substring(2));	
+			result = (n >= 5)? 10 : n;
 		}
 		
 		// print
-		System.out.println(Integer.parseInt(sb.toString()));
+		System.out.println(result);
 		
 		sc.close();
 	}

@@ -1,4 +1,4 @@
-package baekjoon.implementation.fail;
+package baekjoon.implementation.silver.s5;
 
 import java.util.Scanner;
 
@@ -8,8 +8,8 @@ import java.util.Scanner;
  * 11637번: 인기 투표
  * https://www.acmicpc.net/problem/11637
  * 
- * FAIL
- * FAIL
+ * 2 FAIL
+ * PASS (과반수의 의미를 알자)
  */
 public class Main_11637 {
 	public static void main(String[] args) {
@@ -44,7 +44,7 @@ public class Main_11637 {
 			
 			if(count > 1) {
 				System.out.println("no winner");
-			}else if(max >= sum / 2) {
+			}else if(max > sum / 2) {
 				System.out.println("majority winner " + (index + 1));
 			}else {
 				System.out.println("minority winner " + (index + 1));

@@ -1,14 +1,14 @@
-package baekjoon.implementation.fail;
+package baekjoon.math.bronze.b3;
 
 import java.util.Scanner;
 
 /**
- * 구현 / B3
+ * 수학,구현 / B3
  * 
  * 6378번: 디지털 루트
  * https://www.acmicpc.net/problem/6378
  * 
- * ING
+ * PASS (recursive로 구현하기)
  */
 public class Main_6378 {
 	public static void main(String[] args) {
@@ -48,9 +48,13 @@ public class Main_6378 {
 		if(total < 10) {
 			return total;
 		}else {
+			String[] str = String.valueOf(total).split("");
+			int[] nrr = new int[str.length];
+			for(int i = 0; i < nrr.length; i++) {
+				nrr[i] = Integer.parseInt(str[i]);
+			}
 			
+			return findDigitalRoute(nrr);
 		}
-		
- 		return 0;
 	}
 }
