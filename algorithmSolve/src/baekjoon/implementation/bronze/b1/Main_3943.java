@@ -3,7 +3,7 @@ package baekjoon.implementation.bronze.b1;
 import java.util.Scanner;
 
 /**
- * 구현 / B1
+ * 구현,시뮬레이션 / B1
  * 
  * 3943번: 헤일스톤 수열
  * https://www.acmicpc.net/problem/3943
