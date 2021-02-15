@@ -15,7 +15,7 @@ public class Main_10610 {
 	public static void main(String[] args) {
 		// input & initialize
 		Scanner sc = new Scanner(System.in);
-		String str = sc.nextLine();
+		String str = sc.nextLine(); // sc.nextLine().toCharArray();
 		boolean flag = false;
 		char[] arr = new char[str.length()];
 		int sum = 0;
@@ -41,6 +41,8 @@ public class Main_10610 {
 				for(int i = arr.length - 1; i >= 0; i--) {
 					sb.append(arr[i]);
 				}
+				
+				// Collections.sort(numbers, Collections.reverseOrder());
 				
 				System.out.println(sb.toString());
 			}else {

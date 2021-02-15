@@ -1,6 +1,5 @@
-package baekjoon.implementation.fail;
+package baekjoon.implementation.bronze.fail;
 
-import java.math.BigInteger;
 import java.util.Scanner;
 
 /**
@@ -45,16 +44,15 @@ public class Main_5893 {
 		Scanner sc = new Scanner(System.in);
 		String str = sc.nextLine();
 		
-		// str << 4
+		// x16
 		StringBuilder result = new StringBuilder(str);
-		result.append("0");
+		result.append("0000");
 		
-		BigInteger b1 = new BigInteger(result.toString());
-		BigInteger b2 = new BigInteger(str);
-		b1 = b1.add(b2);
+		// + 원래수
+		
 		
 		// print
-		System.out.println(b1.toString(2));
+		System.out.println();
 		
 		sc.close();
 	}

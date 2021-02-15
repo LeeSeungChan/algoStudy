@@ -1,4 +1,4 @@
-package baekjoon.math.fail;
+package baekjoon.math.bronze.fail;
 
 import java.util.Scanner;
 

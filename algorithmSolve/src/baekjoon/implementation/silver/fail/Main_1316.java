@@ -1,6 +1,9 @@
-package baekjoon.implementation.fail;
+package baekjoon.implementation.silver.fail;
 
+import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Scanner;
+import java.util.Set;
 
 /**
  * 구현,문자열 / S5
@@ -24,18 +27,18 @@ public class Main_1316 {
 		//logic
 		for(int i = 0; i < srr.length; i++) {
 			String str = srr[i];
+			Set<String> set = new HashSet<String>();
+			boolean flag = false;
 			
 			for(int j = 0; j < str.length(); j++) {
 				char ch =  str.charAt(j);
-				boolean flag = false;
+				boolean hasFlag = false;
 				
-				for(int k = j + 1; k < str.length(); k++) {
-					
-				}
 			}
 		}
 		
 		// print
+		System.out.println(result);
 		
 		sc.close();
 	}

@@ -1,9 +1,9 @@
-package baekjoon.math.fail;
+package baekjoon.implementation.silver.fail;
 
 import java.util.Scanner;
 
 /**
- * 분류
+ * 구현 / S
  * 
  * n번: 제목
  * https://www.acmicpc.net/problem/n

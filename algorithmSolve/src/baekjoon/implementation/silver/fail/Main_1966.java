@@ -1,4 +1,4 @@
-package baekjoon.implementation.fail;
+package baekjoon.implementation.silver.fail;
 
 import java.util.ArrayDeque;
 import java.util.Queue;

@@ -1,9 +1,9 @@
-package baekjoon.implementation.fail;
+package baekjoon.math.bronze.fail;
 
 import java.util.Scanner;
 
 /**
- * 분류
+ * 수학 / B
  * 
  * n번: 제목
  * https://www.acmicpc.net/problem/n

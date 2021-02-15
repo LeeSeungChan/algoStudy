@@ -1,4 +1,4 @@
-package baekjoon.math.fail;
+package baekjoon.math.bronze.fail;
 
 import java.util.*;
 
@@ -8,7 +8,7 @@ import java.util.*;
  * 1009번: 분산처리
  * https://www.acmicpc.net/problem/1009
  * 
- * ING
+ * 3 FAIL (틀렸습니다)
  */
 public class Main_1009 {
 	public static void main(String[] args) {
@@ -18,11 +18,11 @@ public class Main_1009 {
 		
 		// logic
 		for(int t = 0; t < T; t++) {
-			int a = sc.nextInt();
+			int a = sc.nextInt() % 10;
 			int b = sc.nextInt();
 			List<Integer> list = new ArrayList<Integer>();
-			
 			int result = 0;
+			
 			if(a == 1) {
 				result = 1;
 			}else {
@@ -39,18 +39,18 @@ public class Main_1009 {
 					}
 				}
 				
-				// 수정
-				int len = b % list.size();
-				result = list.get(len);
+				int find = b % (list.size());
+				if(find == 0) {
+					find = list.size() - 1;
+				}else {
+					find = find - 1;
+				}
+				result = list.get(find);
 			}
 			
+			// print
 			System.out.println(result);
 		}
-		
-		// print
-		//for(int i = 1; i <= 12; i++) {
-			//System.out.println("7 * " + i + " = " + (long)Math.pow(7, i));
-		//}
 		
 		sc.close();
 	}

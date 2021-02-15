@@ -1,4 +1,4 @@
-package baekjoon.math.fail;
+package baekjoon.math.silver.fail;
 
 import java.util.*;
 

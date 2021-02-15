@@ -1,4 +1,4 @@
-package baekjoon.implementation.fail;
+package baekjoon.implementation.bronze.fail;
 
 import java.util.ArrayList;
 import java.util.List;
