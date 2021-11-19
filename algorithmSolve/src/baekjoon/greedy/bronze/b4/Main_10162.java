@@ -1,9 +1,9 @@
-package baekjoon.math.bronze.b4;
+package baekjoon.greedy.bronze.b4;
 
 import java.util.Scanner;
 
 /**
- * 수학,구현,사칙연산 / B4
+ * 수학,구현,그리디 / B4
  * 
  * 10162번: 전자레인지
  * https://www.acmicpc.net/problem/10162
